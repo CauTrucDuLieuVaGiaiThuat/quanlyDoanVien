@@ -1,0 +1,36 @@
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe.config
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.pdb
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csprojAssemblyReference.cache
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Login.resources
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.Properties.Resources.resources
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.GenerateResource.cache
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.exe
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.pdb
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Admin.resources
+E:\DoAn\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Main.resources
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csprojAssemblyReference.cache
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Admin.resources
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Login.resources
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Main.resources
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.Properties.Resources.resources
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.GenerateResource.cache
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.exe
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.pdb
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe.config
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe
+E:\Copy\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.pdb
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe.config
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.pdb
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csprojAssemblyReference.cache
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Admin.resources
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Login.resources
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Main.resources
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.Properties.Resources.resources
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.GenerateResource.cache
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.CoreCompileInputs.cache
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.exe
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.pdb
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.fSuKien.resources
+D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\Công trình thanh niên 2020\QLDV_THONG\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.fLienHe.resources
