@@ -158,5 +158,29 @@
   <ItemGroup>
     <None Include="Resources\Background %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_arrow3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_arrow31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

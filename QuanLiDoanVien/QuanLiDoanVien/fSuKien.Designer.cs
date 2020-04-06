@@ -69,10 +69,6 @@
             this.btnThemSuKien = new System.Windows.Forms.Button();
             this.toolTipLichThang = new System.Windows.Forms.ToolTip(this.components);
             this.mnsfSuKien = new System.Windows.Forms.MenuStrip();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tpLichThang = new System.Windows.Forms.TabPage();
             this.pnThang = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -92,6 +88,10 @@
             this.dtpkNgayLichThang = new System.Windows.Forms.DateTimePicker();
             this.btnThangSau = new System.Windows.Forms.Button();
             this.btnLienHe = new System.Windows.Forms.Button();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tcSuKien.SuspendLayout();
             this.tpSuKien.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -123,6 +123,7 @@
             // 
             // tpSuKien
             // 
+            this.tpSuKien.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.tpSuKien.Controls.Add(this.panel7);
             this.tpSuKien.Controls.Add(this.panel3);
             this.tpSuKien.Location = new System.Drawing.Point(4, 33);
@@ -132,17 +133,17 @@
             this.tpSuKien.Size = new System.Drawing.Size(1340, 652);
             this.tpSuKien.TabIndex = 1;
             this.tpSuKien.Text = "Sự kiện";
-            this.tpSuKien.UseVisualStyleBackColor = true;
             // 
             // panel7
             // 
+            this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.panel11);
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel9);
             this.panel7.Controls.Add(this.panel5);
             this.panel7.Controls.Add(this.panel6);
-            this.panel7.Location = new System.Drawing.Point(605, 7);
+            this.panel7.Location = new System.Drawing.Point(623, 13);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(702, 625);
             this.panel7.TabIndex = 5;
@@ -365,11 +366,12 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.flpnSuKien);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.panel8);
-            this.panel3.Location = new System.Drawing.Point(7, 7);
+            this.panel3.Location = new System.Drawing.Point(15, 13);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(592, 625);
             this.panel3.TabIndex = 0;
@@ -507,34 +509,6 @@
             this.mnsfSuKien.Size = new System.Drawing.Size(1348, 32);
             this.mnsfSuKien.TabIndex = 1;
             this.mnsfSuKien.Text = "menuStrip1";
-            // 
-            // adminToolStripMenuItem
-            // 
-            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(79, 28);
-            this.adminToolStripMenuItem.Text = "Admin";
-            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
-            // 
-            // thôngTinTàiKhoảnToolStripMenuItem
-            // 
-            this.thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thôngTinCáNhânToolStripMenuItem,
-            this.đăngXuấtToolStripMenuItem});
-            this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(187, 28);
-            this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
-            // 
-            // thôngTinCáNhânToolStripMenuItem
-            // 
-            this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
-            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
-            this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
-            // 
-            // đăngXuấtToolStripMenuItem
-            // 
-            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
-            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
             // tpLichThang
             // 
@@ -713,23 +687,26 @@
             // 
             // btnThangTruoc
             // 
-            this.btnThangTruoc.BackColor = System.Drawing.Color.Transparent;
+            this.btnThangTruoc.BackColor = System.Drawing.Color.White;
+            this.btnThangTruoc.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.left_arrow31;
             this.btnThangTruoc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThangTruoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThangTruoc.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThangTruoc.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnThangTruoc.Location = new System.Drawing.Point(7, 5);
             this.btnThangTruoc.Name = "btnThangTruoc";
-            this.btnThangTruoc.Size = new System.Drawing.Size(32, 32);
+            this.btnThangTruoc.Size = new System.Drawing.Size(36, 36);
             this.btnThangTruoc.TabIndex = 13;
             this.btnThangTruoc.UseVisualStyleBackColor = false;
             this.btnThangTruoc.Click += new System.EventHandler(this.btnThangTruoc_Click);
             // 
             // btnHomNayLichThang
             // 
-            this.btnHomNayLichThang.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnHomNayLichThang.Font = new System.Drawing.Font("Calibri", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomNayLichThang.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnHomNayLichThang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHomNayLichThang.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomNayLichThang.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnHomNayLichThang.Location = new System.Drawing.Point(416, 4);
+            this.btnHomNayLichThang.Location = new System.Drawing.Point(436, 5);
             this.btnHomNayLichThang.Name = "btnHomNayLichThang";
             this.btnHomNayLichThang.Size = new System.Drawing.Size(157, 36);
             this.btnHomNayLichThang.TabIndex = 9;
@@ -740,7 +717,7 @@
             // dtpkNgayLichThang
             // 
             this.dtpkNgayLichThang.CalendarFont = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpkNgayLichThang.Location = new System.Drawing.Point(44, 5);
+            this.dtpkNgayLichThang.Location = new System.Drawing.Point(56, 7);
             this.dtpkNgayLichThang.Name = "dtpkNgayLichThang";
             this.dtpkNgayLichThang.Size = new System.Drawing.Size(366, 32);
             this.dtpkNgayLichThang.TabIndex = 8;
@@ -748,13 +725,15 @@
             // 
             // btnThangSau
             // 
-            this.btnThangSau.BackColor = System.Drawing.Color.Transparent;
-            this.btnThangSau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThangSau.BackColor = System.Drawing.Color.White;
+            this.btnThangSau.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.left_arrow3;
+            this.btnThangSau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnThangSau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThangSau.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThangSau.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThangSau.Location = new System.Drawing.Point(579, 5);
+            this.btnThangSau.Location = new System.Drawing.Point(599, 5);
             this.btnThangSau.Name = "btnThangSau";
-            this.btnThangSau.Size = new System.Drawing.Size(38, 32);
+            this.btnThangSau.Size = new System.Drawing.Size(36, 36);
             this.btnThangSau.TabIndex = 10;
             this.btnThangSau.UseVisualStyleBackColor = false;
             this.btnThangSau.Click += new System.EventHandler(this.btnThangSau_Click);
@@ -771,6 +750,36 @@
             this.btnLienHe.UseVisualStyleBackColor = false;
             this.btnLienHe.Click += new System.EventHandler(this.btnLienHe_Click);
             // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.admin;
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(99, 28);
+            this.adminToolStripMenuItem.Text = "Admin";
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
+            // 
+            // thôngTinTàiKhoảnToolStripMenuItem
+            // 
+            this.thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thôngTinCáNhânToolStripMenuItem,
+            this.đăngXuấtToolStripMenuItem});
+            this.thôngTinTàiKhoảnToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.user1;
+            this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
+            // 
+            // thôngTinCáNhânToolStripMenuItem
+            // 
+            this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
+            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
+            // 
+            // đăngXuấtToolStripMenuItem
+            // 
+            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            // 
             // fSuKien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
@@ -784,6 +793,7 @@
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.mnsfSuKien;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "fSuKien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý đoàn viên";
