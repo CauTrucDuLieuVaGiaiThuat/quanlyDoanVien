@@ -62,3 +62,17 @@ D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương t
 D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\CÔNG TRÌNH THANH NIÊN 2020\QLDV_THONG_TUONG\Temp\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.CoreCompileInputs.cache
 D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\CÔNG TRÌNH THANH NIÊN 2020\QLDV_THONG_TUONG\Temp\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.exe
 D:\TÀI LIỆU HỌC ĐẠI HỌC\Đoàn Thanh niên\Đoàn khoa\Các chương trình\CÔNG TRÌNH THANH NIÊN 2020\QLDV_THONG_TUONG\Temp\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.pdb
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe.config
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.exe
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\bin\Debug\QuanLiDoanVien.pdb
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csprojAssemblyReference.cache
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.fLienHe.resources
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.fSuKien.resources
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Admin.resources
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Login.resources
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.f_Main.resources
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.Properties.Resources.resources
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.GenerateResource.cache
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.csproj.CoreCompileInputs.cache
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.exe
+E:\DoanVien\quanlyDoanVien\QuanLiDoanVien\QuanLiDoanVien\obj\Debug\QuanLiDoanVien.pdb
