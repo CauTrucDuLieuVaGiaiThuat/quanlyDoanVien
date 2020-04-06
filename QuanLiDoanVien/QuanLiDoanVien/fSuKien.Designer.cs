@@ -34,17 +34,9 @@
             this.pnLichThang = new System.Windows.Forms.Panel();
             this.btnThangTruoc = new System.Windows.Forms.Button();
             this.pnThang = new System.Windows.Forms.Panel();
-            this.btnChuNhat = new System.Windows.Forms.Button();
-            this.btnThangSau = new System.Windows.Forms.Button();
-            this.btnThu7 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnHomNayLichThang = new System.Windows.Forms.Button();
             this.dtpkNgayLichThang = new System.Windows.Forms.DateTimePicker();
-            this.btnThu6 = new System.Windows.Forms.Button();
-            this.btnThu5 = new System.Windows.Forms.Button();
-            this.btnThu4 = new System.Windows.Forms.Button();
-            this.btnThu3 = new System.Windows.Forms.Button();
-            this.btnThu2 = new System.Windows.Forms.Button();
             this.tpSuKien = new System.Windows.Forms.TabPage();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
@@ -89,6 +81,18 @@
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnThangSau = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label20 = new System.Windows.Forms.Label();
             this.tcSuKien.SuspendLayout();
             this.tpLichThang.SuspendLayout();
             this.pnLichThang.SuspendLayout();
@@ -104,6 +108,7 @@
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
             this.mnsfSuKien.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcSuKien
@@ -131,18 +136,13 @@
             // 
             // pnLichThang
             // 
-            this.pnLichThang.BackColor = System.Drawing.Color.Transparent;
-            this.pnLichThang.Controls.Add(this.btnThangTruoc);
+            this.pnLichThang.BackColor = System.Drawing.Color.PeachPuff;
+            this.pnLichThang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnLichThang.Controls.Add(this.label20);
+            this.pnLichThang.Controls.Add(this.flowLayoutPanel1);
+            this.pnLichThang.Controls.Add(this.panel2);
             this.pnLichThang.Controls.Add(this.pnThang);
-            this.pnLichThang.Controls.Add(this.btnChuNhat);
-            this.pnLichThang.Controls.Add(this.btnThangSau);
-            this.pnLichThang.Controls.Add(this.btnThu7);
             this.pnLichThang.Controls.Add(this.panel1);
-            this.pnLichThang.Controls.Add(this.btnThu6);
-            this.pnLichThang.Controls.Add(this.btnThu5);
-            this.pnLichThang.Controls.Add(this.btnThu4);
-            this.pnLichThang.Controls.Add(this.btnThu3);
-            this.pnLichThang.Controls.Add(this.btnThu2);
             this.pnLichThang.Location = new System.Drawing.Point(7, 7);
             this.pnLichThang.Name = "pnLichThang";
             this.pnLichThang.Size = new System.Drawing.Size(1300, 625);
@@ -150,14 +150,14 @@
             // 
             // btnThangTruoc
             // 
-            this.btnThangTruoc.BackColor = System.Drawing.Color.Snow;
+            this.btnThangTruoc.BackColor = System.Drawing.Color.Transparent;
+            this.btnThangTruoc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThangTruoc.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThangTruoc.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThangTruoc.Location = new System.Drawing.Point(17, 135);
+            this.btnThangTruoc.Location = new System.Drawing.Point(7, 5);
             this.btnThangTruoc.Name = "btnThangTruoc";
-            this.btnThangTruoc.Size = new System.Drawing.Size(118, 57);
+            this.btnThangTruoc.Size = new System.Drawing.Size(32, 32);
             this.btnThangTruoc.TabIndex = 13;
-            this.btnThangTruoc.Text = "Tháng trước";
             this.btnThangTruoc.UseVisualStyleBackColor = false;
             this.btnThangTruoc.Click += new System.EventHandler(this.btnThangTruoc_Click);
             // 
@@ -165,56 +165,21 @@
             // 
             this.pnThang.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnThang.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.pnThang.Location = new System.Drawing.Point(141, 248);
+            this.pnThang.Location = new System.Drawing.Point(538, 269);
             this.pnThang.Name = "pnThang";
-            this.pnThang.Size = new System.Drawing.Size(1023, 342);
+            this.pnThang.Size = new System.Drawing.Size(642, 339);
             this.pnThang.TabIndex = 12;
-            // 
-            // btnChuNhat
-            // 
-            this.btnChuNhat.BackColor = System.Drawing.Color.Snow;
-            this.btnChuNhat.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChuNhat.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnChuNhat.Location = new System.Drawing.Point(1023, 135);
-            this.btnChuNhat.Name = "btnChuNhat";
-            this.btnChuNhat.Size = new System.Drawing.Size(141, 57);
-            this.btnChuNhat.TabIndex = 11;
-            this.btnChuNhat.Text = "CN";
-            this.btnChuNhat.UseVisualStyleBackColor = false;
-            // 
-            // btnThangSau
-            // 
-            this.btnThangSau.BackColor = System.Drawing.Color.Snow;
-            this.btnThangSau.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThangSau.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThangSau.Location = new System.Drawing.Point(1170, 135);
-            this.btnThangSau.Name = "btnThangSau";
-            this.btnThangSau.Size = new System.Drawing.Size(118, 57);
-            this.btnThangSau.TabIndex = 10;
-            this.btnThangSau.Text = "Tháng sau";
-            this.btnThangSau.UseVisualStyleBackColor = false;
-            this.btnThangSau.Click += new System.EventHandler(this.btnThangSau_Click);
-            // 
-            // btnThu7
-            // 
-            this.btnThu7.BackColor = System.Drawing.Color.Snow;
-            this.btnThu7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThu7.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThu7.Location = new System.Drawing.Point(876, 135);
-            this.btnThu7.Name = "btnThu7";
-            this.btnThu7.Size = new System.Drawing.Size(141, 57);
-            this.btnThu7.TabIndex = 9;
-            this.btnThu7.Text = "Thứ 7";
-            this.btnThu7.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnThangTruoc);
             this.panel1.Controls.Add(this.btnHomNayLichThang);
             this.panel1.Controls.Add(this.dtpkNgayLichThang);
-            this.panel1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(354, 39);
+            this.panel1.Controls.Add(this.btnThangSau);
+            this.panel1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(538, 146);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(598, 61);
+            this.panel1.Size = new System.Drawing.Size(642, 46);
             this.panel1.TabIndex = 8;
             // 
             // btnHomNayLichThang
@@ -222,83 +187,22 @@
             this.btnHomNayLichThang.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnHomNayLichThang.Font = new System.Drawing.Font("Calibri", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomNayLichThang.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnHomNayLichThang.Location = new System.Drawing.Point(397, 13);
+            this.btnHomNayLichThang.Location = new System.Drawing.Point(416, 4);
             this.btnHomNayLichThang.Name = "btnHomNayLichThang";
-            this.btnHomNayLichThang.Size = new System.Drawing.Size(195, 36);
+            this.btnHomNayLichThang.Size = new System.Drawing.Size(157, 36);
             this.btnHomNayLichThang.TabIndex = 9;
-            this.btnHomNayLichThang.Text = "Hôm nay";
+            this.btnHomNayLichThang.Text = "To day";
             this.btnHomNayLichThang.UseVisualStyleBackColor = true;
             this.btnHomNayLichThang.Click += new System.EventHandler(this.btnHomNayLichThang_Click);
             // 
             // dtpkNgayLichThang
             // 
             this.dtpkNgayLichThang.CalendarFont = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpkNgayLichThang.Location = new System.Drawing.Point(10, 13);
+            this.dtpkNgayLichThang.Location = new System.Drawing.Point(44, 5);
             this.dtpkNgayLichThang.Name = "dtpkNgayLichThang";
-            this.dtpkNgayLichThang.Size = new System.Drawing.Size(381, 36);
+            this.dtpkNgayLichThang.Size = new System.Drawing.Size(366, 32);
             this.dtpkNgayLichThang.TabIndex = 8;
             this.dtpkNgayLichThang.ValueChanged += new System.EventHandler(this.dtpkNgayLichThang_ValueChanged);
-            // 
-            // btnThu6
-            // 
-            this.btnThu6.BackColor = System.Drawing.Color.Snow;
-            this.btnThu6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnThu6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThu6.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThu6.Location = new System.Drawing.Point(729, 135);
-            this.btnThu6.Name = "btnThu6";
-            this.btnThu6.Size = new System.Drawing.Size(141, 57);
-            this.btnThu6.TabIndex = 5;
-            this.btnThu6.Text = "Thứ 6";
-            this.btnThu6.UseVisualStyleBackColor = false;
-            // 
-            // btnThu5
-            // 
-            this.btnThu5.BackColor = System.Drawing.Color.Snow;
-            this.btnThu5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThu5.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThu5.Location = new System.Drawing.Point(582, 135);
-            this.btnThu5.Name = "btnThu5";
-            this.btnThu5.Size = new System.Drawing.Size(141, 57);
-            this.btnThu5.TabIndex = 4;
-            this.btnThu5.Text = "Thứ 5";
-            this.btnThu5.UseVisualStyleBackColor = false;
-            // 
-            // btnThu4
-            // 
-            this.btnThu4.BackColor = System.Drawing.Color.Snow;
-            this.btnThu4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThu4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThu4.Location = new System.Drawing.Point(435, 135);
-            this.btnThu4.Name = "btnThu4";
-            this.btnThu4.Size = new System.Drawing.Size(141, 57);
-            this.btnThu4.TabIndex = 3;
-            this.btnThu4.Text = "Thứ 4";
-            this.btnThu4.UseVisualStyleBackColor = false;
-            // 
-            // btnThu3
-            // 
-            this.btnThu3.BackColor = System.Drawing.Color.Snow;
-            this.btnThu3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThu3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThu3.Location = new System.Drawing.Point(288, 135);
-            this.btnThu3.Name = "btnThu3";
-            this.btnThu3.Size = new System.Drawing.Size(141, 57);
-            this.btnThu3.TabIndex = 2;
-            this.btnThu3.Text = "Thứ 3";
-            this.btnThu3.UseVisualStyleBackColor = false;
-            // 
-            // btnThu2
-            // 
-            this.btnThu2.BackColor = System.Drawing.Color.Snow;
-            this.btnThu2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThu2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnThu2.Location = new System.Drawing.Point(141, 135);
-            this.btnThu2.Name = "btnThu2";
-            this.btnThu2.Size = new System.Drawing.Size(141, 57);
-            this.btnThu2.TabIndex = 1;
-            this.btnThu2.Text = "Thứ 2";
-            this.btnThu2.UseVisualStyleBackColor = false;
             // 
             // tpSuKien
             // 
@@ -727,13 +631,162 @@
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(3, 7);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(635, 40);
+            this.label11.TabIndex = 14;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label13.Location = new System.Drawing.Point(20, 15);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(54, 24);
+            this.label13.TabIndex = 15;
+            this.label13.Text = "MON";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.label16);
+            this.panel2.Controls.Add(this.label15);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.label13);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Location = new System.Drawing.Point(538, 210);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(642, 53);
+            this.panel2.TabIndex = 16;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label14.Location = new System.Drawing.Point(112, 15);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(43, 24);
+            this.label14.TabIndex = 16;
+            this.label14.Text = "TUE";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label15.Location = new System.Drawing.Point(204, 15);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(51, 24);
+            this.label15.TabIndex = 17;
+            this.label15.Text = "WED";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label16.Location = new System.Drawing.Point(296, 15);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(46, 24);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "THU";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label17.Location = new System.Drawing.Point(388, 15);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(35, 24);
+            this.label17.TabIndex = 19;
+            this.label17.Text = "FRI";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.White;
+            this.label18.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label18.Location = new System.Drawing.Point(480, 15);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(39, 24);
+            this.label18.TabIndex = 20;
+            this.label18.Text = "SAT";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.White;
+            this.label19.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label19.Location = new System.Drawing.Point(572, 15);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(45, 24);
+            this.label19.TabIndex = 21;
+            this.label19.Text = "SUN";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnThangSau
+            // 
+            this.btnThangSau.BackColor = System.Drawing.Color.Transparent;
+            this.btnThangSau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThangSau.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThangSau.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnThangSau.Location = new System.Drawing.Point(579, 5);
+            this.btnThangSau.Name = "btnThangSau";
+            this.btnThangSau.Size = new System.Drawing.Size(38, 32);
+            this.btnThangSau.TabIndex = 10;
+            this.btnThangSau.UseVisualStyleBackColor = false;
+            this.btnThangSau.Click += new System.EventHandler(this.btnThangSau_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(44, 269);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(419, 298);
+            this.flowLayoutPanel1.TabIndex = 17;
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label20.Location = new System.Drawing.Point(46, 217);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(417, 37);
+            this.label20.TabIndex = 18;
+            this.label20.Text = "WEEKLY GOALS";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // fSuKien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1348, 721);
             this.Controls.Add(this.tcSuKien);
             this.Controls.Add(this.mnsfSuKien);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.mnsfSuKien;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -762,6 +815,8 @@
             this.panel8.ResumeLayout(false);
             this.mnsfSuKien.ResumeLayout(false);
             this.mnsfSuKien.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -773,17 +828,9 @@
         private System.Windows.Forms.TabPage tpLichThang;
         private System.Windows.Forms.TabPage tpSuKien;
         private System.Windows.Forms.Panel pnLichThang;
-        private System.Windows.Forms.Button btnThu6;
-        private System.Windows.Forms.Button btnThu5;
-        private System.Windows.Forms.Button btnThu4;
-        private System.Windows.Forms.Button btnThu3;
-        private System.Windows.Forms.Button btnThu2;
-        private System.Windows.Forms.Button btnThangSau;
-        private System.Windows.Forms.Button btnThu7;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnHomNayLichThang;
         private System.Windows.Forms.DateTimePicker dtpkNgayLichThang;
-        private System.Windows.Forms.Button btnChuNhat;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button btnXoaSuKien;
@@ -829,6 +876,18 @@
         private System.Windows.Forms.ToolStripMenuItem thôngTinTàiKhoảnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinCáNhânToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnThangSau;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

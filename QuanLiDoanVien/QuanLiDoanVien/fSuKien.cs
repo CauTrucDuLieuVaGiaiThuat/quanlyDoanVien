@@ -54,7 +54,7 @@ namespace QuanLiDoanVien
                 Matrix.Add(new List<Button>());
                 for (int j = 0; j < Cons.DayOfWeek; j++)
                 {
-                    Button btn = new Button() { Width = Cons.dateButtonWidth, Height = Cons.dateButtonHeight };
+                    Button btn = new Button() { Width = Cons.dateButtonWidth, Height = Cons.dateButtonHeight};
                     btn.Location = new Point(oldBtn.Location.X + oldBtn.Width + Cons.margin, oldBtn.Location.Y);
                     btn.Click += Btn_Click;
 
@@ -84,13 +84,17 @@ namespace QuanLiDoanVien
                 btn.Text = i.ToString();
 
                 if (isEqualDate(useDate, DateTime.Now))
-                {
-                    btn.BackColor = Color.Yellow;
+                {                    
+                    btn.FlatStyle = FlatStyle.Flat;
+                    btn.FlatAppearance.BorderColor = Color.Blue;
+                    btn.FlatAppearance.BorderSize = 2;
                 }
 
                 if (isEqualDate(useDate, date))
                 {
-                    btn.BackColor = Color.Aqua;
+                    btn.FlatStyle = FlatStyle.Flat;
+                    btn.FlatAppearance.BorderColor = Color.Green;
+                    btn.FlatAppearance.BorderSize = 3;
                 }
 
                 if (column >= 6)
@@ -100,9 +104,7 @@ namespace QuanLiDoanVien
                 if (text != "")
                 {
                     toolTipLichThang.SetToolTip(btn, text);
-                    btn.FlatStyle = FlatStyle.Flat;
-                    btn.FlatAppearance.BorderColor = Color.Blue;
-                    btn.FlatAppearance.BorderSize = 2;
+                    btn.BackColor = Color.Aqua;
                 }
 
                 useDate = useDate.AddDays(1);
@@ -136,8 +138,9 @@ namespace QuanLiDoanVien
                 {
                     Button btn = Matrix[i][j];
                     btn.Text = "";
-                    btn.BackColor = Color.Snow;
+                    btn.BackColor = Color.White;
                     btn.FlatStyle = FlatStyle.Standard;
+                    btn.FlatAppearance.BorderColor = Color.White;
                 }
             }
         }
