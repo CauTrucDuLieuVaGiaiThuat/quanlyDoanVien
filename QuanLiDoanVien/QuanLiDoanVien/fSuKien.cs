@@ -172,7 +172,7 @@ namespace QuanLiDoanVien
 
                 FlowLayoutPanel flpn = new FlowLayoutPanel { Width = flpnSuKien.Width, Height = 50 };
                 TextBox txb = new TextBox { Text = item.TenSuKien, Width = 210, ReadOnly = true };
-                DateTimePicker dtpkBatDau = new DateTimePicker { Value = item.ThoiGianBatDau, Format = DateTimePickerFormat.Custom, CustomFormat = "hh:mm 'giờ, ngày' dd/MM/yyyy", Width = 270 };
+                DateTimePicker dtpkBatDau = new DateTimePicker { Value = item.ThoiGianBatDau, Format = DateTimePickerFormat.Custom, CustomFormat = "hh:mm tt 'ngày' dd/MM/yyyy", Width = 270 };
                 Button btnChitietSuKien = new Button { Width = 80, Height = 36, Text = "Chi tiết", Tag = item.ID };
                 btnChitietSuKien.Click += BtnChitietSuKien_Click;
 

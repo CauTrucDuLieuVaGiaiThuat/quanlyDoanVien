@@ -29,13 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_Delete = new System.Windows.Forms.Button();
-            this.btn_Update = new System.Windows.Forms.Button();
-            this.btn_Add = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -79,7 +76,6 @@
             this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
             this.tbx_Email = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
             this.tbx_SDT = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -122,6 +118,10 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.btn_Update = new System.Windows.Forms.Button();
+            this.btn_Add = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -142,7 +142,6 @@
             this.tableLayoutPanel15.SuspendLayout();
             this.tableLayoutPanel19.SuspendLayout();
             this.tableLayoutPanel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel20.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
             this.tableLayoutPanel16.SuspendLayout();
@@ -156,6 +155,7 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_Student)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -195,48 +195,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1352, 755);
             this.panel1.TabIndex = 0;
-            // 
-            // btn_Delete
-            // 
-            this.btn_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Delete.AutoSize = true;
-            this.btn_Delete.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.delete_button1;
-            this.btn_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Delete.Location = new System.Drawing.Point(1318, 104);
-            this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(31, 30);
-            this.btn_Delete.TabIndex = 0;
-            this.btn_Delete.UseVisualStyleBackColor = true;
-            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
-            // 
-            // btn_Update
-            // 
-            this.btn_Update.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Update.AutoSize = true;
-            this.btn_Update.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.update_button;
-            this.btn_Update.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Update.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Update.Location = new System.Drawing.Point(1318, 68);
-            this.btn_Update.Name = "btn_Update";
-            this.btn_Update.Size = new System.Drawing.Size(31, 30);
-            this.btn_Update.TabIndex = 1;
-            this.btn_Update.UseVisualStyleBackColor = true;
-            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
-            // 
-            // btn_Add
-            // 
-            this.btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Add.AutoSize = true;
-            this.btn_Add.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.add_button;
-            this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Add.Location = new System.Drawing.Point(1318, 32);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(31, 30);
-            this.btn_Add.TabIndex = 2;
-            this.btn_Add.UseVisualStyleBackColor = true;
-            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // groupBox3
             // 
@@ -727,8 +685,8 @@
             this.tableLayoutPanel19.ColumnCount = 1;
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel21, 0, 3);
-            this.tableLayoutPanel19.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel20, 0, 2);
+            this.tableLayoutPanel19.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel19.Location = new System.Drawing.Point(531, 3);
             this.tableLayoutPanel19.Name = "tableLayoutPanel19";
@@ -773,17 +731,6 @@
             this.label24.Size = new System.Drawing.Size(50, 30);
             this.label24.TabIndex = 2;
             this.label24.Text = "Email:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 182);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // tableLayoutPanel20
             // 
@@ -1267,14 +1214,14 @@
             this.dtgv_Student.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgv_Student.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgv_Student.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgv_Student.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgv_Student.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgv_Student.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgv_Student.Location = new System.Drawing.Point(3, 26);
             this.dtgv_Student.Name = "dtgv_Student";
@@ -1308,6 +1255,59 @@
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Delete.AutoSize = true;
+            this.btn_Delete.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.delete_button1;
+            this.btn_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Delete.Location = new System.Drawing.Point(1318, 104);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(31, 30);
+            this.btn_Delete.TabIndex = 0;
+            this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
+            // 
+            // btn_Update
+            // 
+            this.btn_Update.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Update.AutoSize = true;
+            this.btn_Update.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.update_button;
+            this.btn_Update.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Update.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Update.Location = new System.Drawing.Point(1318, 68);
+            this.btn_Update.Name = "btn_Update";
+            this.btn_Update.Size = new System.Drawing.Size(31, 30);
+            this.btn_Update.TabIndex = 1;
+            this.btn_Update.UseVisualStyleBackColor = true;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Add.AutoSize = true;
+            this.btn_Add.BackgroundImage = global::QuanLiDoanVien.Properties.Resources.add_button;
+            this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Add.Location = new System.Drawing.Point(1318, 32);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(31, 30);
+            this.btn_Add.TabIndex = 2;
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 182);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // f_Admin
             // 
@@ -1350,7 +1350,6 @@
             this.tableLayoutPanel19.ResumeLayout(false);
             this.tableLayoutPanel21.ResumeLayout(false);
             this.tableLayoutPanel21.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel20.ResumeLayout(false);
             this.tableLayoutPanel20.PerformLayout();
             this.tableLayoutPanel11.ResumeLayout(false);
@@ -1371,6 +1370,7 @@
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_Student)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
