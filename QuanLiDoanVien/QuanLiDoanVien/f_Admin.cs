@@ -530,8 +530,14 @@ namespace QuanLiDoanVien
             ClearInfo(panel3);
         }
 
+
         #endregion
 
-
+        private void f_Admin_Load(object sender, EventArgs e)
+        {
+            this.dtgv_Student.DefaultCellStyle.Font = new Font("Microsoft Sans Serif", 9, FontStyle.Regular);
+            this.dtgv_Student.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 9.5f);
+            this.dtgv_Student.ForeColor = Color.Black;
+        }
     }
 }
