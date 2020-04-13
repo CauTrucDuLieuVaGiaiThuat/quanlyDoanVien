@@ -153,6 +153,16 @@ namespace QuanLiDoanVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Huy_Hiệu_Đoàn {
+            get {
+                object obj = ResourceManager.GetObject("Huy_Hiệu_Đoàn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap left_arrow3 {
             get {
                 object obj = ResourceManager.GetObject("left_arrow3", resourceCulture);

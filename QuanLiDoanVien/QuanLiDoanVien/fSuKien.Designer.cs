@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tcSuKien = new System.Windows.Forms.TabControl();
-            this.toolTipLichThang = new System.Windows.Forms.ToolTip(this.components);
-            this.mnsfSuKien = new System.Windows.Forms.MenuStrip();
             this.tpLichThang = new System.Windows.Forms.TabPage();
             this.pnThang = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -88,12 +86,14 @@
             this.btnXoaSuKien = new System.Windows.Forms.Button();
             this.btnCapNhatSuKien = new System.Windows.Forms.Button();
             this.btnThemSuKien = new System.Windows.Forms.Button();
+            this.toolTipLichThang = new System.Windows.Forms.ToolTip(this.components);
+            this.mnsfSuKien = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đoànViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tcSuKien.SuspendLayout();
-            this.mnsfSuKien.SuspendLayout();
             this.tpLichThang.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -107,6 +107,7 @@
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.mnsfSuKien.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcSuKien
@@ -115,32 +116,12 @@
             this.tcSuKien.Controls.Add(this.tpSuKien);
             this.tcSuKien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcSuKien.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tcSuKien.Location = new System.Drawing.Point(0, 32);
+            this.tcSuKien.Location = new System.Drawing.Point(0, 29);
             this.tcSuKien.Margin = new System.Windows.Forms.Padding(4);
             this.tcSuKien.Name = "tcSuKien";
             this.tcSuKien.SelectedIndex = 0;
-            this.tcSuKien.Size = new System.Drawing.Size(1348, 689);
+            this.tcSuKien.Size = new System.Drawing.Size(1348, 692);
             this.tcSuKien.TabIndex = 0;
-            // 
-            // toolTipLichThang
-            // 
-            this.toolTipLichThang.IsBalloon = true;
-            this.toolTipLichThang.Tag = "";
-            this.toolTipLichThang.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipLichThang.ToolTipTitle = "Sự kiện trong ngày";
-            // 
-            // mnsfSuKien
-            // 
-            this.mnsfSuKien.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mnsfSuKien.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.mnsfSuKien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adminToolStripMenuItem,
-            this.thôngTinTàiKhoảnToolStripMenuItem});
-            this.mnsfSuKien.Location = new System.Drawing.Point(0, 0);
-            this.mnsfSuKien.Name = "mnsfSuKien";
-            this.mnsfSuKien.Size = new System.Drawing.Size(1348, 32);
-            this.mnsfSuKien.TabIndex = 1;
-            this.mnsfSuKien.Text = "menuStrip1";
             // 
             // tpLichThang
             // 
@@ -156,7 +137,7 @@
             this.tpLichThang.Margin = new System.Windows.Forms.Padding(4);
             this.tpLichThang.Name = "tpLichThang";
             this.tpLichThang.Padding = new System.Windows.Forms.Padding(4);
-            this.tpLichThang.Size = new System.Drawing.Size(1340, 655);
+            this.tpLichThang.Size = new System.Drawing.Size(1340, 658);
             this.tpLichThang.TabIndex = 0;
             this.tpLichThang.Text = "Lịch tháng";
             // 
@@ -380,7 +361,7 @@
             this.tpSuKien.Margin = new System.Windows.Forms.Padding(4);
             this.tpSuKien.Name = "tpSuKien";
             this.tpSuKien.Padding = new System.Windows.Forms.Padding(4);
-            this.tpSuKien.Size = new System.Drawing.Size(1340, 655);
+            this.tpSuKien.Size = new System.Drawing.Size(1340, 658);
             this.tpSuKien.TabIndex = 1;
             this.tpSuKien.Text = "Sự kiện";
             // 
@@ -719,12 +700,12 @@
             // btnXoaSuKien
             // 
             this.btnXoaSuKien.BackColor = System.Drawing.Color.White;
-            this.btnXoaSuKien.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnXoaSuKien.FlatAppearance.BorderSize = 2;
-            this.btnXoaSuKien.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkOrange;
+            this.btnXoaSuKien.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btnXoaSuKien.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnXoaSuKien.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnXoaSuKien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoaSuKien.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaSuKien.ForeColor = System.Drawing.Color.Black;
+            this.btnXoaSuKien.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaSuKien.ForeColor = System.Drawing.Color.Navy;
             this.btnXoaSuKien.Location = new System.Drawing.Point(16, 22);
             this.btnXoaSuKien.Name = "btnXoaSuKien";
             this.btnXoaSuKien.Size = new System.Drawing.Size(165, 50);
@@ -736,12 +717,12 @@
             // btnCapNhatSuKien
             // 
             this.btnCapNhatSuKien.BackColor = System.Drawing.Color.White;
-            this.btnCapNhatSuKien.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnCapNhatSuKien.FlatAppearance.BorderSize = 2;
-            this.btnCapNhatSuKien.FlatAppearance.MouseOverBackColor = System.Drawing.Color.RoyalBlue;
+            this.btnCapNhatSuKien.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btnCapNhatSuKien.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCapNhatSuKien.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnCapNhatSuKien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCapNhatSuKien.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhatSuKien.ForeColor = System.Drawing.Color.Black;
+            this.btnCapNhatSuKien.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatSuKien.ForeColor = System.Drawing.Color.Navy;
             this.btnCapNhatSuKien.Location = new System.Drawing.Point(210, 22);
             this.btnCapNhatSuKien.Name = "btnCapNhatSuKien";
             this.btnCapNhatSuKien.Size = new System.Drawing.Size(165, 50);
@@ -753,12 +734,12 @@
             // btnThemSuKien
             // 
             this.btnThemSuKien.BackColor = System.Drawing.Color.White;
-            this.btnThemSuKien.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnThemSuKien.FlatAppearance.BorderSize = 2;
-            this.btnThemSuKien.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnThemSuKien.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btnThemSuKien.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnThemSuKien.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnThemSuKien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThemSuKien.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemSuKien.ForeColor = System.Drawing.Color.Black;
+            this.btnThemSuKien.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemSuKien.ForeColor = System.Drawing.Color.Navy;
             this.btnThemSuKien.Location = new System.Drawing.Point(404, 22);
             this.btnThemSuKien.Name = "btnThemSuKien";
             this.btnThemSuKien.Size = new System.Drawing.Size(165, 50);
@@ -767,13 +748,42 @@
             this.btnThemSuKien.UseVisualStyleBackColor = false;
             this.btnThemSuKien.Click += new System.EventHandler(this.btnThemSuKien_Click);
             // 
+            // toolTipLichThang
+            // 
+            this.toolTipLichThang.IsBalloon = true;
+            this.toolTipLichThang.Tag = "";
+            this.toolTipLichThang.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipLichThang.ToolTipTitle = "Sự kiện trong ngày";
+            // 
+            // mnsfSuKien
+            // 
+            this.mnsfSuKien.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mnsfSuKien.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.mnsfSuKien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adminToolStripMenuItem,
+            this.thôngTinTàiKhoảnToolStripMenuItem});
+            this.mnsfSuKien.Location = new System.Drawing.Point(0, 0);
+            this.mnsfSuKien.Name = "mnsfSuKien";
+            this.mnsfSuKien.Size = new System.Drawing.Size(1348, 29);
+            this.mnsfSuKien.TabIndex = 1;
+            this.mnsfSuKien.Text = "menuStrip1";
+            // 
             // adminToolStripMenuItem
             // 
+            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.đoànViênToolStripMenuItem});
             this.adminToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.admin;
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(99, 28);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(90, 25);
             this.adminToolStripMenuItem.Text = "Admin";
-            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
+            // 
+            // đoànViênToolStripMenuItem
+            // 
+            this.đoànViênToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.Huy_Hiệu_Đoàn;
+            this.đoànViênToolStripMenuItem.Name = "đoànViênToolStripMenuItem";
+            this.đoànViênToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.đoànViênToolStripMenuItem.Text = "Đoàn viên";
+            this.đoànViênToolStripMenuItem.Click += new System.EventHandler(this.đoànViênToolStripMenuItem_Click);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
@@ -782,19 +792,19 @@
             this.đăngXuấtToolStripMenuItem});
             this.thôngTinTàiKhoảnToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.user1;
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(178, 25);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
             // 
             // thôngTinCáNhânToolStripMenuItem
             // 
             this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
-            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
             // fSuKien
@@ -815,8 +825,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý đoàn viên";
             this.tcSuKien.ResumeLayout(false);
-            this.mnsfSuKien.ResumeLayout(false);
-            this.mnsfSuKien.PerformLayout();
             this.tpLichThang.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -837,6 +845,8 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel8.ResumeLayout(false);
+            this.mnsfSuKien.ResumeLayout(false);
+            this.mnsfSuKien.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -907,6 +917,7 @@
         private System.Windows.Forms.Button btnThangSau;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.ToolStripMenuItem đoànViênToolStripMenuItem;
     }
 }
 

@@ -24,7 +24,7 @@ namespace QuanLiDoanVien
         public f_Admin()
         {
             InitializeComponent();
-
+            
             listID = LoadListID();
             listLopID = LoadListLopID();
             listKhoaID = LoadListKhoaID();

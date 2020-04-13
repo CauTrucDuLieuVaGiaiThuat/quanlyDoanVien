@@ -185,5 +185,8 @@
   <ItemGroup>
     <None Include="Resources\Background %283%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Huy_Hiệu_Đoàn.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

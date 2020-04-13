@@ -289,13 +289,6 @@ namespace QuanLiDoanVien
             btnXoaSuKien.Tag = -1;
         }
 
-        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            f_Admin f = new f_Admin();
-            f.ShowDialog();
-        }
-        #endregion
-
         private void btnLienHe_Click(object sender, EventArgs e)
         {
             fLienHe f = new fLienHe();
@@ -305,5 +298,14 @@ namespace QuanLiDoanVien
             txbSoDienThoai.DataBindings.Clear();
             LoadLienHe();
         }
+
+        private void đoànViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            f_Admin f = new f_Admin();
+            f.ShowDialog();
+        }
+
+
+        #endregion
     }
 }
