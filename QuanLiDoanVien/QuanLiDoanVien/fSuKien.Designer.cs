@@ -29,7 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fSuKien));
             this.tcSuKien = new System.Windows.Forms.TabControl();
+            this.toolTipLichThang = new System.Windows.Forms.ToolTip(this.components);
+            this.mnsfSuKien = new System.Windows.Forms.MenuStrip();
             this.tpLichThang = new System.Windows.Forms.TabPage();
             this.pnThang = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -86,14 +89,13 @@
             this.btnXoaSuKien = new System.Windows.Forms.Button();
             this.btnCapNhatSuKien = new System.Windows.Forms.Button();
             this.btnThemSuKien = new System.Windows.Forms.Button();
-            this.toolTipLichThang = new System.Windows.Forms.ToolTip(this.components);
-            this.mnsfSuKien = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đoànViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tcSuKien.SuspendLayout();
+            this.mnsfSuKien.SuspendLayout();
             this.tpLichThang.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -107,7 +109,6 @@
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.mnsfSuKien.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcSuKien
@@ -116,12 +117,32 @@
             this.tcSuKien.Controls.Add(this.tpSuKien);
             this.tcSuKien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcSuKien.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tcSuKien.Location = new System.Drawing.Point(0, 29);
-            this.tcSuKien.Margin = new System.Windows.Forms.Padding(4);
+            this.tcSuKien.Location = new System.Drawing.Point(0, 30);
+            this.tcSuKien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tcSuKien.Name = "tcSuKien";
             this.tcSuKien.SelectedIndex = 0;
-            this.tcSuKien.Size = new System.Drawing.Size(1348, 692);
+            this.tcSuKien.Size = new System.Drawing.Size(1348, 691);
             this.tcSuKien.TabIndex = 0;
+            // 
+            // toolTipLichThang
+            // 
+            this.toolTipLichThang.IsBalloon = true;
+            this.toolTipLichThang.Tag = "";
+            this.toolTipLichThang.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipLichThang.ToolTipTitle = "Sự kiện trong ngày";
+            // 
+            // mnsfSuKien
+            // 
+            this.mnsfSuKien.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mnsfSuKien.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.mnsfSuKien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adminToolStripMenuItem,
+            this.thôngTinTàiKhoảnToolStripMenuItem});
+            this.mnsfSuKien.Location = new System.Drawing.Point(0, 0);
+            this.mnsfSuKien.Name = "mnsfSuKien";
+            this.mnsfSuKien.Size = new System.Drawing.Size(1348, 30);
+            this.mnsfSuKien.TabIndex = 1;
+            this.mnsfSuKien.Text = "menuStrip1";
             // 
             // tpLichThang
             // 
@@ -134,10 +155,10 @@
             this.tpLichThang.Controls.Add(this.label20);
             this.tpLichThang.Controls.Add(this.panel1);
             this.tpLichThang.Location = new System.Drawing.Point(4, 30);
-            this.tpLichThang.Margin = new System.Windows.Forms.Padding(4);
+            this.tpLichThang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tpLichThang.Name = "tpLichThang";
-            this.tpLichThang.Padding = new System.Windows.Forms.Padding(4);
-            this.tpLichThang.Size = new System.Drawing.Size(1340, 658);
+            this.tpLichThang.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpLichThang.Size = new System.Drawing.Size(1340, 657);
             this.tpLichThang.TabIndex = 0;
             this.tpLichThang.Text = "Lịch tháng";
             // 
@@ -358,10 +379,10 @@
             this.tpSuKien.Controls.Add(this.panel7);
             this.tpSuKien.Controls.Add(this.panel3);
             this.tpSuKien.Location = new System.Drawing.Point(4, 30);
-            this.tpSuKien.Margin = new System.Windows.Forms.Padding(4);
+            this.tpSuKien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tpSuKien.Name = "tpSuKien";
-            this.tpSuKien.Padding = new System.Windows.Forms.Padding(4);
-            this.tpSuKien.Size = new System.Drawing.Size(1340, 658);
+            this.tpSuKien.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpSuKien.Size = new System.Drawing.Size(1340, 657);
             this.tpSuKien.TabIndex = 1;
             this.tpSuKien.Text = "Sự kiện";
             // 
@@ -748,33 +769,13 @@
             this.btnThemSuKien.UseVisualStyleBackColor = false;
             this.btnThemSuKien.Click += new System.EventHandler(this.btnThemSuKien_Click);
             // 
-            // toolTipLichThang
-            // 
-            this.toolTipLichThang.IsBalloon = true;
-            this.toolTipLichThang.Tag = "";
-            this.toolTipLichThang.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipLichThang.ToolTipTitle = "Sự kiện trong ngày";
-            // 
-            // mnsfSuKien
-            // 
-            this.mnsfSuKien.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mnsfSuKien.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.mnsfSuKien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adminToolStripMenuItem,
-            this.thôngTinTàiKhoảnToolStripMenuItem});
-            this.mnsfSuKien.Location = new System.Drawing.Point(0, 0);
-            this.mnsfSuKien.Name = "mnsfSuKien";
-            this.mnsfSuKien.Size = new System.Drawing.Size(1348, 29);
-            this.mnsfSuKien.TabIndex = 1;
-            this.mnsfSuKien.Text = "menuStrip1";
-            // 
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.đoànViênToolStripMenuItem});
             this.adminToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.admin;
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(90, 25);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // đoànViênToolStripMenuItem
@@ -792,7 +793,7 @@
             this.đăngXuấtToolStripMenuItem});
             this.thôngTinTàiKhoảnToolStripMenuItem.Image = global::QuanLiDoanVien.Properties.Resources.user1;
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(178, 25);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
             // 
             // thôngTinCáNhânToolStripMenuItem
@@ -818,13 +819,16 @@
             this.Controls.Add(this.mnsfSuKien);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mnsfSuKien;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "fSuKien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý đoàn viên";
             this.tcSuKien.ResumeLayout(false);
+            this.mnsfSuKien.ResumeLayout(false);
+            this.mnsfSuKien.PerformLayout();
             this.tpLichThang.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -845,8 +849,6 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel8.ResumeLayout(false);
-            this.mnsfSuKien.ResumeLayout(false);
-            this.mnsfSuKien.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

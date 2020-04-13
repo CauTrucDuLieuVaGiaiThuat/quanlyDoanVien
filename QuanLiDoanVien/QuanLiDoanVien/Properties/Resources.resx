@@ -121,6 +121,9 @@
   <data name="right_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\right_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Huy_Hiệu_Đoàn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huy_Hiệu_Đoàn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="delete_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,7 +175,7 @@
   <data name="admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Huy_Hiệu_Đoàn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Huy_Hiệu_Đoàn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background blue (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background blue (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
